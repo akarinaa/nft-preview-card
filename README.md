@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-page-with-css-and-html-a9MnE-6tA)
+- Live Site URL: [Preview](https://akarinaa.github.io/nft-preview-card/)
 
 ## My process
 
