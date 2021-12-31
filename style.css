@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Outfit, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+a:link, a:visited {
+  color: hsl(0, 0%, 100%); /* White */
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%); /* Cyan */
+  transition: 0.5s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nft-container {
+  display: block;
+  width: 80%;
+  max-width: 375px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 25px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.product-image {
+  display: block;
+  background-color: hsl(178, 100%, 50%);
+  background-image: url('./images/icon-view.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  padding: 0;
+}
+
+.product-image a {
+  display: block;
+}
+
+.product-image img {
+  display: block;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.product-image img:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.nft-container h2 {
+  color: hsl(0, 0%, 100%); /* White */
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.price-tag {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column-gap: 10px;
+  color: hsl(178, 100%, 50%); /* Cyan */
+  font-weight: 600;
+}
+
+.time-available {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: flex-end;
+  grid-column-gap: 10px;
+}
+
+.creator-tag {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column-gap: 5px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding-top: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.creator-avatar {
+  max-height: 40px;
+  border: 2px solid hsl(0, 0%, 100%); /* White */
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+@media (max-width: 1080px) {
+  .site-container {
+    min-height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
