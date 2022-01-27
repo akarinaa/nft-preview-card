@@ -78,10 +78,11 @@ img {
   transition: 0.4s;
 }
 
-.nft-container h2 {
+.nft-container h1 {
   color: hsl(0, 0%, 100%); /* White */
-  font-weight: 400;
+  font-weight: 600;
   margin: 20px 0;
+  font-size: 28px;
 }
 
 .price-container {
